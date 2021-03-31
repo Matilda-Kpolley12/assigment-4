@@ -10,6 +10,7 @@
 ul {
     display: flex;
     justify-content: space-between;
+   padding-right:5rem ;
 }
 
 li {
@@ -19,11 +20,12 @@ li {
 
 .nav-link{
     text-decoration: none;
-    padding: 0.5rem;
+    padding: 1.5rem;
     color: #fff;
 }
 
 .logo{
     color: #fff;
     font-family: "Art Maria";
+    padding-left: 5rem;
 }

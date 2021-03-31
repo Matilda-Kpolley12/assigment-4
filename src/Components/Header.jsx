@@ -9,16 +9,29 @@ const Header = () => {
           <Logo />
           <ul>
             <li>
-              <NavLink to="/" className="nav-link">Home</NavLink>
+              <NavLink to="/" className="nav-link">
+                Home
+              </NavLink>
             </li>
             <li>
-              <NavLink to="/product" className="nav-link">Product</NavLink>
+              <NavLink to="/product" className="nav-link">
+                Product
+              </NavLink>
             </li>
             <li>
-              <NavLink to="/about" className="nav-link">About</NavLink>
+              <NavLink to="/about" className="nav-link">
+                About
+              </NavLink>
             </li>
             <li>
-              <NavLink to="/login" className="nav-link">Login</NavLink>
+              <NavLink to="/login" className="nav-link">
+                Login
+              </NavLink>
+            </li>
+            <li>
+              <NavLink to="/signup" className="nav-link">
+                Signup
+              </NavLink>
             </li>
           </ul>
         </div>

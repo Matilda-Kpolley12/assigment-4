@@ -2,3 +2,38 @@
     margin: 0;
     padding: 0;
 }
+
+.big-image {
+    width: 100%;
+}
+
+.home-items{
+    display: grid;
+    width: 80%;
+    grid-template-columns: 49% 49%;
+    margin: auto;
+    /* overflow: hidden; */
+}
+
+.home-text {
+    background-color: rgb(94, 84, 226);
+    /* margin-left: 10%; */
+    
+}
+
+.home-img{
+/* margin-right: 10%; */
+}
+
+.home-img > img{
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+}
+
+hr {
+    width: 10%;
+    align-items: center;
+}
